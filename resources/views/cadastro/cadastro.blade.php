@@ -53,7 +53,7 @@
 </head>
 
 <header class="aa" bis_skin_checked="1">
-    <a href="#" class="logo"><img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN" data-was-processed="true">
+    <a href="/" class="logo"><img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN" data-was-processed="true">
     </a>
 
     <div class="box-nav" bis_skin_checked="1">
@@ -106,7 +106,7 @@
     <footer class="aa">
         <div class="container" bis_skin_checked="1">
         <div class="data" bis_skin_checked="1">
-        <a href="#" class="logo"><img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN"></a>
+        <a href="/" class="logo"><img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN"></a>
 
         <div class="redes" bis_skin_checked="1">
                     <a href="https://www.facebook.com/DSINTECNOLOGIA/" target="_blank" rel="noopener noreferrer"><img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2026%2026'%3E%3C/svg%3E" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/facebook.svg" alt="Ícone"></a>

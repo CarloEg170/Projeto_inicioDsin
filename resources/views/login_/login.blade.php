@@ -45,10 +45,13 @@
         .aa{
             background-color:#32373c;
         }
+        .a1{
+            color:black
+        }
     </style>
 </head>
 <header class="aa" bis_skin_checked="1">
-        <a href="#" class="logo"><img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN" data-was-processed="true">
+        <a href="/" class="logo"><img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN" data-was-processed="true">
         </a>
 
         <div class="box-nav" bis_skin_checked="1">
@@ -88,6 +91,7 @@
                 </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+            <a href="/cadastro" class="a1">Não tem cadastro?</a>
 
         </form>
     </main>

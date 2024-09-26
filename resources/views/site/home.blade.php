@@ -101,11 +101,11 @@
 <body class="home page-template-default page page-id-2 elementor-default elementor-kit-1123" __processed_a8c35792-7a89-40b4-8ff6-7295d5119f73__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJMSU5LRURJTiI6ImRpc2FibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMC4xNiIsInNjb3JlIjoyMDAxNn1d"></body>
 
     <header>
-<a href="#" class="logo"><img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN" data-was-processed="true"></a>
+<a href="/" class="logo"><img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/logo.svg" alt="DSIN" data-was-processed="true"></a>
   <div class="box-nav" bis_skin_checked="1">
 <nav id="menuDesk">
-  <ul><li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-12"><a href="{{route::("home")}}">Home</a></li>
-    <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-12"><a href="{{route::("login")}}">Login</a></li>
+  <ul><li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-12"><a href="/">Home</a></li>
+    <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-12"><a href="/login">Login</a></li>
 <li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="#">Sobre-Nós</a></li>
 </ul>      </nav>
 <div class="redes" bis_skin_checked="1">
