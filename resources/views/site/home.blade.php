@@ -171,40 +171,29 @@
             <p>O projeto visa desenvolver um sistema eficiente para verificar irregularidades de veículos, com base nas informações da placa. O sistema permitirá acessar dados de licenciamento e será utilizado tanto por unidades da administração estadual quanto por representações federais. Seu objetivo principal é melhorar a gestão da frota da empresa DSIN e oferecer uma ferramenta prática para que clientes e parceiros possam consultar irregularidades de forma ágil e segura. O sistema também busca reduzir o tempo de validações, minimizar erros humanos e otimizar a interface, tornando o processo mais rápido e eficiente.</p>
         </div>
     </section>
-    <div class="container" bis_skin_checked="1">
-        <h2 class="big-title">Sistemas sob medida para municípios de todos os tamanhos.</h2>
-        <div class="boxes" bis_skin_checked="1">
-            <div class="box" bis_skin_checked="1">
-                <h3>Pequeno</h3>
-                <img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/regua-pequeno.svg"
-                    data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/regua-pequeno.svg" alt="Pequeno"
-                    data-was-processed="true">
-                <span>Sistema acessível, intuitivo e simples que potencializa a operação com uma gestão de ponta a ponta
-                    e com o melhor custo benefício do mercado. Perfeito para atender todas as exigências legais e
-                    garantir a segurança, cumprimento de prazos e integridade das informações.</span>
+    <div class="container">
+            <div class="row big-title">
+                <div class="text-center fw-bolder" >
+                    <h3>Busque Sua placa</h3>
+
+                </div>
             </div>
-            <div class="box" bis_skin_checked="1">
-                <h3>Médio</h3>
-                <img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/regua-medio.svg"
-                    data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/regua-medio.svg" alt="Médio"
-                    data-was-processed="true">
-                <span>Nossos módulos integrados possibilitam maior segurança e agilidade no processamento de informações
-                    e na assertividade nas tomadas de decisão. O sistema é flexível e possibilita o perfeito
-                    aproveitamento dos recursos.</span>
-            </div>
-            <div class="box" bis_skin_checked="1">
-                <h3>Grande</h3>
-                <img class="lazy loaded" src="https://www.dsin.com.br/wp-content/uploads/2022/01/regua-grande.svg"
-                    data-src="https://www.dsin.com.br/wp-content/uploads/2022/01/regua-grande.svg" alt="Grande"
-                    data-was-processed="true">
-                <span>A mais completa e robusta solução para operação e gestão integrada dos setores de trânsito e
-                    transporte. Fornecemos ferramentas inovadoras que simplificam a operação em campo, gerando
-                    produtividade e eficiência. Tenha visibilidade dos principais dados dos setores e tome decisões
-                    ágeis e assertivas. Tudo isso, feito com base em indicadores confiáveis.</span>
-            </div>
-        </div>
-        <p>As soluções DSIN podem ser contratadas separadamente de acordo com a necessidade do município.</p>
-    </div>
+
+            <form class="row"  method="POST" action="{{ route('infracoes.buscar') }}">
+                @csrf
+                <div class="col-10">
+                    <input type="text" name="placa" placeholder="Digite sua Placa..." id="placa"
+                    class="form-control">
+
+                    <div class="col-2">
+                        <button class="btn btn-primary" type="submit">Pesquisar</button>
+                      </div>
+
+                </div>
+            </form>
+
+
+
 </main>
 
 <footer>
