@@ -10,8 +10,6 @@ class HomeControler extends Controller{
         return view('site.home');
     }
 
-    public function cadastro(){
-        return view('cadastro.cadastro');
-    }
+
 }
 
