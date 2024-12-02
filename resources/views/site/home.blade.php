@@ -148,7 +148,7 @@
     style="background-image: url(&quot;https://www.dsin.com.br/wp-content/uploads/2022/01/banner-home.jpg&quot;);"
     data-bg="url('https://www.dsin.com.br/wp-content/uploads/2022/01/banner-home.jpg')" data-was-processed="true">
     <div class="container" bis_skin_checked="1">
-        <h1>DSIN.<br>
+        <h1><br>
             <!-- Soluções para melhorar --><strong class="typewrite" data-period="2000"
                 data-type="[
 &quot;o município.&quot;, &quot;o trânsito.&quot;, &quot;o seu dia.&quot;    ]"><span
@@ -160,16 +160,15 @@
 
 <main class="content-main">
     <section id="sistema">
-        <div class="container" bis_skin_checked="1">
-            <h2 class="big-title"></h2>
-            <div class="boxes" bis_skin_checked="1">
+        <div class="container">
+            <div class="row big-title">
 
-                <div class="box" bis_skin_checked="1">
-                    <h3>Grande</h3>
+                <div class="text-center fw-bolder" style="width:" >
+                    <h3>Sobre Nós</h3>
 
                 </div>
             </div>
-            <p>As soluções DSIN podem ser contratadas separadamente de acordo com a necessidade do município.</p>
+            <p>O projeto visa desenvolver um sistema eficiente para verificar irregularidades de veículos, com base nas informações da placa. O sistema permitirá acessar dados de licenciamento e será utilizado tanto por unidades da administração estadual quanto por representações federais. Seu objetivo principal é melhorar a gestão da frota da empresa DSIN e oferecer uma ferramenta prática para que clientes e parceiros possam consultar irregularidades de forma ágil e segura. O sistema também busca reduzir o tempo de validações, minimizar erros humanos e otimizar a interface, tornando o processo mais rápido e eficiente.</p>
         </div>
     </section>
     <div class="container" bis_skin_checked="1">
